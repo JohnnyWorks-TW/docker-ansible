@@ -5,3 +5,4 @@ RUN apk update && \
 
 RUN ansible-galaxy collection install community.docker
 RUN pip install docker
+RUN pip install pywinrm

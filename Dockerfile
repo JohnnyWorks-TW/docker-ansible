@@ -1,4 +1,4 @@
-FROM alpine:3.18.4
+FROM alpine:3.20.2
 
 RUN apk update && \
   apk --no-cache add gcc python3 py3-pip vim ansible sshpass openssh-client rsync
